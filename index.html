@@ -91,13 +91,19 @@
 				<header>
 					<h2>Contact Me</h2>
 				</header>
-				<form action="#" method="post">
+				<iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" 
+				     onload="this.onload=function(){window.location='https://ABOAO.github.io/My-Page/'}"></iframe>
+				<form action="https://script.google.com/macros/s/AKfycbxAT-oORea_UjGS7sYZOyjdmZ3dY-GFvJMaN1BERo0qdDHtXUNnXSiCn4cS6f_iBbIVRg/exec" 
+				     method="post" onsubmit ="checkUser()" target="hidden_iframe">
 					<div>
 						<div class="row">
 							<div class="col-6 col-12-medium">
 								<input type="text" name="name" placeholder="Name" />
 							</div>
 							<div class="col-6 col-12-medium">
+								<input type="text" name="phone" placeholder="Phone" />
+							</div>	
+							<div class="col-12">
 								<input type="text" name="email" placeholder="Email" />
 							</div>
 							<div class="col-12">
@@ -132,7 +138,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-
+	
 </body>
 
 </html>
