@@ -152,6 +152,22 @@ textarea {
 	appearance: none;
 }
 
+/* Logo */
+.logo{
+	display: flex;
+	padding: 20px;
+	height: 10%;
+
+
+}
+
+
+
+
+
+
+
+
 /* Row */
 
 .row {
