@@ -153,18 +153,13 @@ textarea {
 }
 
 /* Logo */
-.logo{
+#logo{
 	display: flex;
-	padding: 20px;
-	height: 10%;
-
+    width: 45em;
+	margin: auto;
+	
 
 }
-
-
-
-
-
 
 
 
